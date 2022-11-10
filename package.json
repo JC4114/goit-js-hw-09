@@ -5,7 +5,7 @@
   "homepage": "https://JC4114.github.io/goit-js-hw-09",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09n/",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/",
     "push": "git add . && git commit -m 'update' && git push"
   },
   "repository": {
