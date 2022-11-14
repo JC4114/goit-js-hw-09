@@ -11,7 +11,7 @@ function onSubmit(event) {
   let stepRef = +step.value;
   let amountRef = +amount.value;
 
-  for (position = 1; position <= amountRef; position++) {
+  for (let position = 1; position <= amountRef; position++) {
     createPromise(position, delayRef);
     delayRef += stepRef;
   }
